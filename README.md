@@ -20,8 +20,8 @@ A complete registration, login, and password recovery system with email verifica
 ### 1. Clone the repository
 ```markdown
 
-```bash
-git clone https://github.com/yourusername/your-repo.git
+bash
+git clone https://github.com/TheFuZeeXD/RapidAuthPHP.git
 ```
 *If Git is not installed, download the archive from the **Releases** section.*
 
