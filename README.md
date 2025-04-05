@@ -1,10 +1,11 @@
-```markdown
+
 # Sign Up | Log In (PHP + MySQL)
 
 A complete registration, login, and password recovery system with email verification. Built with **PHP**, using **MySQL**, **CSS**, and **JavaScript**. Protected from XSS attacks and easy to configure.
 
 ## Features
 
+```markdown
 - Registration with email confirmation (code-based)
 - Login protected from XSS
 - Password recovery via email
