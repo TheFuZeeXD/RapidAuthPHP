@@ -13,8 +13,9 @@ A complete registration, login, and password recovery system with email verifica
 - Ready-to-use CSS + JavaScript (folder: `resource`)
 - Easy and clear setup
 
----
+```
 
+```markdown
 ## Installation
 
 ### 1. Clone the repository
