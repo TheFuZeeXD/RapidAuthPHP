@@ -15,10 +15,11 @@ A complete registration, login, and password recovery system with email verifica
 
 ```
 
-```markdown
 ## Installation
 
 ### 1. Clone the repository
+```markdown
+
 ```bash
 git clone https://github.com/yourusername/your-repo.git
 ```
@@ -85,5 +86,4 @@ In the following files, replace `"no-reply@yourdomain.com"` with your actual dom
 
 The system is ready for use and easily integrates into any PHP-based project.
 
-Need help? Just reach out!
-```
+Need help? Just reach out! fuzeexd@thefuzeexd.ru
