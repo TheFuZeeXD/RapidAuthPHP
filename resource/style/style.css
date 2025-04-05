@@ -1,0 +1,12 @@
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    background-size: cover; /* Заставляет градиент покрывать весь экран */
+    height: 100vh;
+}
+
+@media (max-width: 768px) {
+    body {
+        background: linear-gradient(135deg, #667eea, #764ba2);
+        background-size: 200% 200%; /* Масштабирование градиента для мобильных устройств */
+    }
+}
