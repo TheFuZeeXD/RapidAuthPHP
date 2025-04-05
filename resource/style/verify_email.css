@@ -1,0 +1,182 @@
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    background-size: cover; /* Заставляет градиент покрывать весь экран */
+    height: 100vh;
+}
+
+@media (max-width: 768px) {
+    body {
+        background: linear-gradient(135deg, #667eea, #764ba2);
+        background-size: 200% 200%; /* Масштабирование градиента для мобильных устройств */
+    }
+}
+
+
+.Screen {position: absolute;
+    left: 0;
+    right: 0;
+    display:inline;
+    top:210px;
+text-align: center;
+animation-name: FadeOutIn;
+animation-duration: 1s;
+animation-fill-mode: both;
+}
+
+@keyframes FadeOutIn {
+    0% {opacity:0; top:340px;}
+    100% {opacity:1; top:210px;}
+}
+
+
+.VerifyEmail {display: inline-block;
+    padding: 33px 55px;
+    border-radius: 10px 44px;
+    background: linear-gradient(135deg, #40ffe2, #006eff);
+    max-width: 80%;
+
+}
+
+.VerifyEmail h2{
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 2em;
+    margin-bottom: 20px;
+   
+}
+
+.VerifyEmail input {
+    border:none;
+    margin-bottom: 7px;
+    padding: 8px 62px;
+    border-radius: 12px;
+    font-size: 17px;
+  
+}
+.VerifyEmail input::placeholder {
+    font-size: 17px;
+    user-select: none;
+}
+.VerifyEmail input:focus {
+    border: none;
+    outline: none;
+}
+
+.VerifyEmail p {
+  
+    color: rgb(0, 0, 0);
+    margin-top: 5px;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+    transition-duration: 0.1s;
+  
+}
+
+.VerifyEmail p:hover {
+    color: white;
+}
+.VerifyEmail button {
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 700;
+    border:none;
+    padding: 8px 106px;
+    border-radius: 20px;
+    transition-duration: 0.2s;
+    max-width: 100%;
+    user-select: none;
+}
+
+.VerifyEmail button:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+@media (max-width: 768px) {
+    .VerifyEmail {display: inline-block;
+        padding: 22px 33px;
+        border-radius: 10px 44px;
+        background: linear-gradient(135deg, #40ffe2, #006eff);
+        max-width: 80%;
+    
+    }
+    
+    .VerifyEmail h2{
+        font-weight: 700;
+        font-family: sans-serif;
+        font-size: 1em;
+        margin-bottom: 20px;
+       
+    }
+    
+    .VerifyEmail input {
+        border:none;
+        margin-bottom: 7px;
+        padding: 8px 33px;
+        border-radius: 12px;
+        font-size: 17px;
+      max-width: 90%;
+      
+    }
+    .VerifyEmail input::placeholder {
+        font-size: 17px;
+        user-select: none;
+    }
+    .VerifyEmail input:focus {
+        border: none;
+        outline: none;
+    }
+    
+    .VerifyEmail p {
+       
+        color: rgb(0, 0, 0);
+        margin-top: 5px;
+        font-weight: 700;
+        font-family: sans-serif;
+        font-size: 17px;
+        margin-bottom: 20px;
+        transition-duration: 0.1s;
+      
+    }
+    
+    .VerifyEmail p:hover {
+        color: white;
+    }
+    .VerifyEmail button {
+        cursor: pointer;
+        font-size: 1em;
+        font-weight: 700;
+        border:none;
+        padding: 7px 88px;
+        border-radius: 20px;
+        transition-duration: 0.2s;
+        max-width: 100%;
+        user-select: none;
+    }
+    
+    .VerifyEmail button:hover {
+        background-color: black;
+        color: white;
+    }
+    
+    
+
+}
+
+
+footer {
+    position:absolute;
+bottom:0;
+left:0;
+right:0;}
+
+footer h1 {
+    font-family:monospace;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
