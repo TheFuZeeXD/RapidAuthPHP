@@ -24,7 +24,7 @@ A complete registration, login, and password recovery system with email verifica
 bash
 git clone https://github.com/TheFuZeeXD/RapidAuthPHP.git
 ```
-*If Git is not installed, download the archive from the **Releases** section.*
+*If Git is not installed, download the archive from the [releases](https://github.com/TheFuZeeXD/RapidAuthPHP/releases)*
 
 ### 2. Configure the database
 - Open the `config.php` file and replace the database credentials with your own.
